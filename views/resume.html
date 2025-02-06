@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | My Personal Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background: linear-gradient(to right, #141e30, #243b55);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        .navbar {
+            background: rgba(0, 0, 0, 0.3) !important;
+            backdrop-filter: blur(10px);
+        }
+        .resume-section {
+            background: rgba(0, 0, 0, 0.4);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        .resume-title {
+            color: #ff4b2b;
+            font-size: 1.8rem;
+            margin-top: 20px;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 20px 0;
+            backdrop-filter: blur(10px);
+        }
+        .social-icons a {
+            color: white;
+            font-size: 1.5rem;
+            transition: 0.3s;
+        }
+        .social-icons a:hover {
+            color: #ff4b2b;
+            transform: scale(1.2);
+        }
+        .container {
+            max-width: 900px;
+            margin-top: 50px;
+        }
+        .resume-section ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .resume-section ul li {
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                </ul>
+                <a href="#" class="nav-link text-white">
+                    <img src="./resources/img/favicon.ico" alt="Icon" width="30" height="30">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="fw-bold text-center display-4">My Resume</h1>
+        <div class="resume-section mt-4">
+            <h3 class="resume-title">Education</h3>
+            <p><strong>University of Colorado, Boulder, CO</strong> — Degree Candidate(s): Bachelor of Arts in Computer Science and Quantitative Finance Certificate (2024 to Present)</p>
+            <ul>
+                <li>Bachelor Scholarship</li>
+                <li>Presidential Scholarship</li>
+                <li>3.97 GPA</li>
+            </ul>
+            <p><strong>Deerfield High School, Deerfield, IL</strong> — Graduated May 2024</p>
+
+            <h3 class="resume-title mt-4">Experience</h3>
+            <p><strong>Software Engineer Intern</strong> - Tech Company (Summer 2023)</p>
+            <ul>
+                <li>Developed responsive web applications using React and Bootstrap.</li>
+                <li>Worked on backend APIs using Node.js and Express.</li>
+            </ul>
+
+            <h3 class="resume-title mt-4">Leadership & Extracurriculars</h3>
+            <h5>Chinese Honor Society (2023, 2024)</h5>
+            <ul>
+                <li>Led and presented multiple programs about material learned in the honor society in front of administration and parents once annually.</li>
+                <li>Coordinated and delegated weekly meetings to review and practice workload to ensure each group member had sufficient understanding of the material.</li>
+            </ul>
+
+            <h5>DHS Honor Society (2023, 2024)</h5>
+            <ul>
+                <li>Sustained above a cumulative unweighted GPA of 3.33.</li>
+            </ul>
+
+            <h5>Founder and President - STEM Club (2023, 2024)</h5>
+            <ul>
+                <li>Developed first all-inclusive STEM club at Deerfield High School with 30+ students during the first year and 120+ students in the second year.</li>
+                <li>Created presentations to address real-world STEM issues and had members engineer hands-on solutions.</li>
+            </ul>
+
+            <h3 class="resume-title mt-4">Skills</h3>
+            <ul>
+                <li>Fundamental Analysis, Technical Analysis</li>
+                <li>Java, Python, C++</li>
+                <li>Machine Learning, Data Analysis</li>
+                <li>Hiking, Snowboarding, Cooking, Attending Concerts</li>
+            </ul>
+
+            <h3 class="resume-title mt-4">Work Experience</h3>
+            <p><strong>Back-End Software Developer</strong> - Rakio LLC, Altamonte Springs, FL (Summer 2023)</p>
+            <ul>
+                <li>Integrated a checkout process for selling bundled subscriptions using the Stripe API.</li>
+                <li>Collaborated with front-end teams to enhance user experience and ensure system reliability.</li>
+            </ul>
+            <p><strong>Golf Caddy</strong> - Briarwood Country Club, Deerfield, IL (Summer 2024)</p>
+            <p><strong>Lifeguard</strong> - Deerfield Park District, Deerfield, IL (Summer 2022)</p>
+            <p><strong>Baseball Umpire</strong> - Official Finders, Deerfield, IL (Summer 2023)</p>
+
+            <h3 class="resume-title mt-4">Leadership</h3>
+            <p><strong>Captain</strong> - Deerfield High School Track and Field (2024 Season)</p>
+            <ul>
+                <li>Led practices and created workouts during the sprinting coach’s absence.</li>
+                <li>Frequently assisted underclassmen with proper sprinting form and mechanics.</li>
+            </ul>
+
+            <p><strong>Director of Social Committee</strong> - Alpha Epsilon Pi Fraternity, Boulder, CO (Fall 2024 to Present)</p>
+            <ul>
+                <li>Assisted the social chair by creating events for fraternity brothers.</li>
+                <li>Developed a budgeting plan to ensure the fraternity's finances align with available funds.</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="text-center mt-5">
+        <div class="social-icons">
+            <p>Connect with me:</p>
+            <a href="https://www.linkedin.com/in/asher-siegel/" class="mx-2" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/asher-siegel-boulder" class="mx-2" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
